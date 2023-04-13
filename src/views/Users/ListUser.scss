@@ -1,0 +1,17 @@
+.listUser-container{
+    .title {
+        margin: 20px;
+        color: aqua;
+    }
+    .list-user-content{
+        .child {
+            cursor: pointer;
+            padding-left: 20px;
+            text-align: left;
+            height: 50px;
+            width: 500px;
+            border: 1px solid yellowgreen;
+            margin: 0 auto;
+        }
+    }
+}

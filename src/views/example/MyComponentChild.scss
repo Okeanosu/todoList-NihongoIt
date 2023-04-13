@@ -1,0 +1,52 @@
+.btn-show {
+    color: rgb(236, 222, 15);
+    border-radius: 10px;
+    background-color: rgb(12, 183, 235);
+    border: 0;
+    :hover > & {
+        // margin-bottom: 5px;
+        background-color: rgb(236, 222, 15);
+        color: rgb(12, 183, 235);
+        box-shadow: 5px 3px white ;
+    }
+    :active > & {
+        background-color: aquamarine;
+        color: white;
+    }
+}
+
+.btn-hide {
+    color: rgb(236, 222, 15);
+    border-radius: 10px;
+    background-color: rgb(12, 183, 235);
+    border: 0;
+    :hover > & {
+        // margin-top: 5px;
+        background-color: rgb(236, 222, 15);
+        color: rgb(12, 183, 235);
+        box-shadow: 5px 3px white ;
+    }
+    :active > & {
+        background-color: aquamarine;
+        color: white;
+    }
+}
+
+.btn-row {
+    text-align: justify;
+    display: flex;
+    margin: 5px 5px 5px 580px;
+
+    .btn-list {
+        width: 300px;
+    }
+    .btn-delete {
+        font-size: 25px;
+        color: red;
+        background-color: yellowgreen;
+        margin-left: 30px;
+    }
+}
+.job-lists {
+    margin: 0 auto;
+}
